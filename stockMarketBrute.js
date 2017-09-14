@@ -6,7 +6,6 @@ function maxProfit(stockPricesArray) {
     {
       break;
     }
-
     for (let i = Number(index) + 1; i < stockPricesArray.length; i++)
     {
       let profit = stockPricesArray[i] - stockPricesArray[index];
@@ -15,7 +14,6 @@ function maxProfit(stockPricesArray) {
         max = profit;
       }
     }
-
   }
   return max;
 }
